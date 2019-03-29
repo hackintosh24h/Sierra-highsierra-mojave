@@ -1,0 +1,155 @@
+32:045  3:890  Found BIOS RSDP at FBE30
+32:045  0:000  Printing ACPI tables from RSDP FBE30 ...
+32:045  0:000   FBE30: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+32:045  0:000    (Xsdt: 33EBA188, Rsdt: 33EBA0C4)
+32:045  0:000    33EBA188: 'XSDT', 'SLIC-BPC', Rev: 1, Len: 212
+32:045  0:000    33EBA0C4: 'RSDT', 'SLIC-BPC', Rev: 1, Len: 124
+32:045  0:000    Tables in Xsdt: 22
+32:045  0:000    0. 33EEE000: 'FACP', 'SLIC-BPC', Rev: 5, Len: 244
+32:045  0:000        (Dsdt: 33EC5000, Facs: 33E58000, XDsdt: 33EC5000, XFacs: 0)
+32:045  0:000        33EC5000: 'DSDT', '80D6', Rev: 2, Len: 154936
+32:047  0:002        33E58000: 'FACS', Ver: 1, Len: 64
+32:047  0:000    1. 33EFC000: 'SSDT', 'ShmTable', Rev: 2, Len: 264
+32:047  0:000    2. 33EFA000: 'TCPA', 'EDK2', Rev: 2, Len: 50
+32:047  0:000    3. 33EF9000: 'SSDT', 'TcgTable', Rev: 2, Len: 952
+32:047  0:000    4. 33E6A000: 'UEFI', 'EDK2', Rev: 1, Len: 66
+32:047  0:000    5. 33EF3000: 'SSDT', 'SaSsdt', Rev: 2, Len: 20986
+32:047  0:000    6. 33EF2000: 'SSDT', 'PerfTune', Rev: 1, Len: 1457
+32:047  0:000    7. 33EF1000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85
+32:047  0:000    8. 33EF0000: 'SLIC', 'SLIC-BPC', Rev: 1, Len: 374
+32:047  0:000    9. 33EEF000: 'WSMT', '80D6', Rev: 1, Len: 40
+32:047  0:000    10. 33EED000: 'HPET', '80D6', Rev: 1, Len: 56
+32:047  0:000    11. 33EEC000: 'APIC', '80D6', Rev: 1, Len: 188
+32:047  0:000    12. 33EEB000: 'MCFG', '80D6', Rev: 1, Len: 60
+32:047  0:000    13. 33EC4000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 410
+32:047  0:000    14. 33EC3000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1833
+32:047  0:000    15. 33EC2000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+32:047  0:000    16. 33EC1000: 'NHLT', 'EDK2', Rev: 0, Len: 45
+32:047  0:000    17. 33EBD000: 'SSDT', 'NVSGTBL', Rev: 1, Len: 15341
+32:047  0:000    18. 33EBC000: 'ASF!', ' UYA', Rev: 32, Len: 165
+32:047  0:000    19. 33EBB000: 'FPDT', 'EDK2', Rev: 1, Len: 68
+32:047  0:000    20. 33EFD000: 'BGRT', 'EDK2', Rev: 1, Len: 56
+32:047  0:000    21. 33EFB000: 'SSDT', 'PwrCtlEv', Rev: 2, Len: 608
+32:047  0:000    Tables in Rsdt: 22
+32:047  0:000    0. 33EEE000: 'FACP', 'SLIC-BPC', Rev: 5, Len: 244
+32:047  0:000        (Dsdt: 33EC5000, Facs: 33E58000, XDsdt: 33EC5000, XFacs: 0)
+32:047  0:000        33EC5000: 'DSDT', '80D6', Rev: 2, Len: 154936
+32:050  0:002        33E58000: 'FACS', Ver: 1, Len: 64
+32:050  0:000    1. 33EFC000: 'SSDT', 'ShmTable', Rev: 2, Len: 264
+32:050  0:000    2. 33EFA000: 'TCPA', 'EDK2', Rev: 2, Len: 50
+32:050  0:000    3. 33EF9000: 'SSDT', 'TcgTable', Rev: 2, Len: 952
+32:050  0:000    4. 33E6A000: 'UEFI', 'EDK2', Rev: 1, Len: 66
+32:050  0:000    5. 33EF3000: 'SSDT', 'SaSsdt', Rev: 2, Len: 20986
+32:050  0:000    6. 33EF2000: 'SSDT', 'PerfTune', Rev: 1, Len: 1457
+32:050  0:000    7. 33EF1000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85
+32:050  0:000    8. 33EF0000: 'SLIC', 'SLIC-BPC', Rev: 1, Len: 374
+32:050  0:000    9. 33EEF000: 'WSMT', '80D6', Rev: 1, Len: 40
+32:050  0:000    10. 33EED000: 'HPET', '80D6', Rev: 1, Len: 56
+32:050  0:000    11. 33EEC000: 'APIC', '80D6', Rev: 1, Len: 188
+32:050  0:000    12. 33EEB000: 'MCFG', '80D6', Rev: 1, Len: 60
+32:050  0:000    13. 33EC4000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 410
+32:050  0:000    14. 33EC3000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1833
+32:050  0:000    15. 33EC2000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+32:050  0:000    16. 33EC1000: 'NHLT', 'EDK2', Rev: 0, Len: 45
+32:050  0:000    17. 33EBD000: 'SSDT', 'NVSGTBL', Rev: 1, Len: 15341
+32:050  0:000    18. 33EBC000: 'ASF!', ' UYA', Rev: 32, Len: 165
+32:050  0:000    19. 33EBB000: 'FPDT', 'EDK2', Rev: 1, Len: 68
+32:050  0:000    20. 33EFD000: 'BGRT', 'EDK2', Rev: 1, Len: 56
+32:050  0:000    21. 33EFB000: 'SSDT', 'PwrCtlEv', Rev: 2, Len: 608
+32:050  0:000  Found UEFI Acpi 2.0 RSDP at 33EFE014
+32:050  0:000  Saving ACPI tables from RSDP 33EFE014 to EFI\CLOVER\ACPI\origin ...
+32:050  0:000   33EFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+32:057  0:007    (Xsdt: 33EBA188, Rsdt: 33EBA0C4)
+32:057  0:000    33EBA188: 'XSDT', 'SLIC-BPC', Rev: 1, Len: 212 -> XSDT.aml
+32:064  0:007    33EBA0C4: 'RSDT', 'SLIC-BPC', Rev: 1, Len: 124 -> RSDT.aml
+32:072  0:007    Tables in Xsdt: 22
+32:072  0:000    0. 33EEE000: 'FACP', 'SLIC-BPC', Rev: 5, Len: 244 -> FACP.aml
+32:079  0:007        (Dsdt: 33EC5000, Facs: 33E58000, XDsdt: 33EC5000, XFacs: 0)
+32:079  0:000        33EC5000: 'DSDT', '80D6', Rev: 2, Len: 154936 -> DSDT.aml
+32:089  0:009        33E58000: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+32:096  0:007    1. 33EFC000: 'SSDT', 'ShmTable', Rev: 2, Len: 264 -> SSDT-0-ShmTable.aml
+32:103  0:006    2. 33EFA000: 'TCPA', 'EDK2', Rev: 2, Len: 50 -> TCPA.aml
+32:110  0:007    3. 33EF9000: 'SSDT', 'TcgTable', Rev: 2, Len: 952 -> SSDT-1-TcgTable.aml
+32:117  0:006    4. 33E6A000: 'UEFI', 'EDK2', Rev: 1, Len: 66 -> UEFI.aml
+32:123  0:006    5. 33EF3000: 'SSDT', 'SaSsdt', Rev: 2, Len: 20986 -> SSDT-2-SaSsdt.aml
+32:131  0:007    6. 33EF2000: 'SSDT', 'PerfTune', Rev: 1, Len: 1457 -> SSDT-3-PerfTune.aml
+32:137  0:006    7. 33EF1000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85 -> MSDM.aml
+32:144  0:007    8. 33EF0000: 'SLIC', 'SLIC-BPC', Rev: 1, Len: 374 -> SLIC.aml
+32:151  0:006    9. 33EEF000: 'WSMT', '80D6', Rev: 1, Len: 40 -> WSMT.aml
+32:158  0:007    10. 33EED000: 'HPET', '80D6', Rev: 1, Len: 56 -> HPET.aml
+32:165  0:006    11. 33EEC000: 'APIC', '80D6', Rev: 1, Len: 188 -> APIC.aml
+32:172  0:006    12. 33EEB000: 'MCFG', '80D6', Rev: 1, Len: 60 -> MCFG.aml
+32:179  0:007    13. 33EC4000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 410 -> SSDT-4-Sata0Ide.aml
+32:186  0:007    14. 33EC3000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1833 -> SSDT-5-PtidDevc.aml
+32:193  0:007    15. 33EC2000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699 -> SSDT-6-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+32:200  0:007        * 33A01698: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1533  53 53 44 54 FD 05 00 00 02 04 50 6D 52 65 66 00 Internal length = 1533 -> SSDT-x6_0-Cpu0Ist.aml
+32:208  0:007        * 33A00618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 C2 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x6_1-ApIst.aml
+32:215  0:007        * 33A00C18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 59 50 6D 52 65 66 00 Internal length = 895 -> SSDT-x6_2-Cpu0Cst.aml
+32:222  0:007        * 33C78C18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 DE 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x6_3-ApCst.aml
+32:229  0:006        * 252DDA18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 1F 50 6D 52 65 66 00 Internal length = 142 -> SSDT-x6_4-Cpu0Hwp.aml
+32:236  0:007        * 25438618: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 F1 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x6_5-ApHwp.aml
+32:243  0:007        * 25438498: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 79 50 6D 52 65 66 00 Internal length = 304 -> SSDT-x6_6-HwpLvt.aml
+32:250  0:007  
+32:250  0:000    16. 33EC1000: 'NHLT', 'EDK2', Rev: 0, Len: 45 -> NHLT.aml
+32:257  0:007    17. 33EBD000: 'SSDT', 'NVSGTBL', Rev: 1, Len: 15341 -> SSDT-7-NVSGTBL.aml
+32:265  0:007    18. 33EBC000: 'ASF!', ' UYA', Rev: 32, Len: 165 -> ASF!.aml
+32:274  0:009    19. 33EBB000: 'FPDT', 'EDK2', Rev: 1, Len: 68 -> FPDT.aml
+32:282  0:007    20. 33EFD000: 'BGRT', 'EDK2', Rev: 1, Len: 56 -> BGRT.aml
+32:288  0:006    21. 33EFB000: 'SSDT', 'PwrCtlEv', Rev: 2, Len: 608 -> SSDT-8-PwrCtlEv.aml
+32:296  0:007    Tables in Rsdt: 22
+32:296  0:000    0. 33EEE000: 'FACP', 'SLIC-BPC', Rev: 5, Len: 244
+32:296  0:000        (Dsdt: 33EC5000, Facs: 33E58000, XDsdt: 33EC5000, XFacs: 0)
+32:296  0:000        33EC5000: 'DSDT', '80D6', Rev: 2, Len: 154936
+32:298  0:002        33E58000: 'FACS', Ver: 1, Len: 64
+32:298  0:000    1. 33EFC000: 'SSDT', 'ShmTable', Rev: 2, Len: 264
+32:298  0:000    2. 33EFA000: 'TCPA', 'EDK2', Rev: 2, Len: 50
+32:298  0:000    3. 33EF9000: 'SSDT', 'TcgTable', Rev: 2, Len: 952
+32:298  0:000    4. 33E6A000: 'UEFI', 'EDK2', Rev: 1, Len: 66
+32:298  0:000    5. 33EF3000: 'SSDT', 'SaSsdt', Rev: 2, Len: 20986
+32:298  0:000    6. 33EF2000: 'SSDT', 'PerfTune', Rev: 1, Len: 1457
+32:298  0:000    7. 33EF1000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85
+32:298  0:000    8. 33EF0000: 'SLIC', 'SLIC-BPC', Rev: 1, Len: 374
+32:298  0:000    9. 33EEF000: 'WSMT', '80D6', Rev: 1, Len: 40
+32:298  0:000    10. 33EED000: 'HPET', '80D6', Rev: 1, Len: 56
+32:298  0:000    11. 33EEC000: 'APIC', '80D6', Rev: 1, Len: 188
+32:298  0:000    12. 33EEB000: 'MCFG', '80D6', Rev: 1, Len: 60
+32:298  0:000    13. 33EC4000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 410
+32:298  0:000    14. 33EC3000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1833
+32:298  0:000    15. 33EC2000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+32:298  0:000    16. 33EC1000: 'NHLT', 'EDK2', Rev: 0, Len: 45
+32:298  0:000    17. 33EBD000: 'SSDT', 'NVSGTBL', Rev: 1, Len: 15341
+32:298  0:000    18. 33EBC000: 'ASF!', ' UYA', Rev: 32, Len: 165
+32:298  0:000    19. 33EBB000: 'FPDT', 'EDK2', Rev: 1, Len: 68
+32:298  0:000    20. 33EFD000: 'BGRT', 'EDK2', Rev: 1, Len: 56
+32:298  0:000    21. 33EFB000: 'SSDT', 'PwrCtlEv', Rev: 2, Len: 608
+32:298  0:000  Found UEFI Acpi 1.0 RSDP at 33EFE000
+32:298  0:000  Printing ACPI tables from RSDP 33EFE000 ...
+32:298  0:000   33EFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+32:298  0:000    (Rsdt: 33EBA000)
+32:298  0:000    33EBA000: 'RSDT', 'SLIC-BPC', Rev: 1, Len: 124
+32:298  0:000    Tables in Rsdt: 22
+32:298  0:000    0. 33EEE000: 'FACP', 'SLIC-BPC', Rev: 5, Len: 244
+32:298  0:000        (Dsdt: 33EC5000, Facs: 33E58000, XDsdt: 33EC5000, XFacs: 0)
+32:298  0:000        33EC5000: 'DSDT', '80D6', Rev: 2, Len: 154936
+32:300  0:002        33E58000: 'FACS', Ver: 1, Len: 64
+32:300  0:000    1. 33EFC000: 'SSDT', 'ShmTable', Rev: 2, Len: 264
+32:300  0:000    2. 33EFA000: 'TCPA', 'EDK2', Rev: 2, Len: 50
+32:300  0:000    3. 33EF9000: 'SSDT', 'TcgTable', Rev: 2, Len: 952
+32:300  0:000    4. 33E6A000: 'UEFI', 'EDK2', Rev: 1, Len: 66
+32:300  0:000    5. 33EF3000: 'SSDT', 'SaSsdt', Rev: 2, Len: 20986
+32:300  0:000    6. 33EF2000: 'SSDT', 'PerfTune', Rev: 1, Len: 1457
+32:300  0:000    7. 33EF1000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85
+32:300  0:000    8. 33EF0000: 'SLIC', 'SLIC-BPC', Rev: 1, Len: 374
+32:300  0:000    9. 33EEF000: 'WSMT', '80D6', Rev: 1, Len: 40
+32:300  0:000    10. 33EED000: 'HPET', '80D6', Rev: 1, Len: 56
+32:300  0:000    11. 33EEC000: 'APIC', '80D6', Rev: 1, Len: 188
+32:300  0:000    12. 33EEB000: 'MCFG', '80D6', Rev: 1, Len: 60
+32:300  0:000    13. 33EC4000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 410
+32:300  0:000    14. 33EC3000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1833
+32:300  0:000    15. 33EC2000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+32:300  0:000    16. 33EC1000: 'NHLT', 'EDK2', Rev: 0, Len: 45
+32:300  0:000    17. 33EBD000: 'SSDT', 'NVSGTBL', Rev: 1, Len: 15341
+32:300  0:000    18. 33EBC000: 'ASF!', ' UYA', Rev: 32, Len: 165
+32:300  0:000    19. 33EBB000: 'FPDT', 'EDK2', Rev: 1, Len: 68
+32:300  0:000    20. 33EFD000: 'BGRT', 'EDK2', Rev: 1, Len: 56
+32:300  0:000    21. 33EFB000: 'SSDT', 'PwrCtlEv', Rev: 2, Len: 608
